@@ -80,6 +80,7 @@ class App extends Component {
         <Route path="/redesign"><Redesign/></Route>
         <Route path="/personas"><Personas/></Route>
         <Route path ="/about"><About/></Route>
+        <Route path="/resume"><p className="centered">removed for anonymity</p></Route>
         <Route path="/">
           <div className="portfolio">
             <div className="sideBar">

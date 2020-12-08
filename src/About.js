@@ -3,7 +3,7 @@ import {Component} from 'react';
 class About extends Component {
     render () {
         return (
-            <div className="centered">
+            <div className="centered"><div className="aboutDiv">
                 <img className="portrait" src="portraitplaceholder.png" alt="placeholder for self"></img>
                 <div className="about">
                     <h3>Nice to meet you!</h3>
@@ -18,7 +18,7 @@ class About extends Component {
                     <br></br>
                     <p className="aboutP">In my free time I enjoy doing parkour, writing stories, and making music.</p>
                 </div>
-            </div>
+            </div></div>
         )
     }
 }

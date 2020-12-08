@@ -1,0 +1,155 @@
+.title {
+    text-align: center;
+    font-size: 4em;
+    font-family: 'Permanent Marker';
+    margin: 0px;
+    padding: 0px;
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 2em;
+    font-family: 'Kalam';
+    margin: 0px;
+    padding: 0px;
+}
+
+h4 {
+    font-family: 'Courgette';
+    font-size: 18px;
+    text-align: center;
+}
+
+h6 {
+    font-weight: 300;
+    font-size: 16px;
+    margin: 10px;
+}
+
+.introdiv {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 70%;
+}
+
+.introcap {
+    background-color: white;
+    margin: 20px 0px 20px 0px;
+    padding: 15px 15px 5px 15px;
+    border-radius: 5px;
+}
+
+.context {
+    text-align: center; 
+    font-size: 12px; 
+    display:inline-block;
+    margin: 0px 5px 0px 5px;
+    padding: 0px;
+    color: #444;
+}
+
+.inlinehr {
+    display: inline-block; 
+    width: 33%; 
+    position: relative; 
+    top: 0.5em;
+    height: 0px;
+    margin: 0px 0px 30px 0px;
+    padding: 0px;
+    background-color: darkgrey;
+}
+
+.longhr {
+    width: 80%;
+    border: 0;
+    height: 3px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+
+.conclusion {
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 80px;
+    width: 80%;
+}
+
+.conclusiongrid {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 0.3fr 0.3fr;
+    grid-template-rows: 1fr;
+    margin-top: 20px;
+}
+
+.lessons {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.softskills {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.hardskills {
+    grid-column: 3;
+    grid-row: 1;
+}
+
+.skillslist {
+    margin-left: -25px;
+    font-weight: lighter;
+}
+
+.centered {
+    display: flex;
+    justify-content: center;
+}
+
+.coolshadow {
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072);
+}
+
+.smallshadow {
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034);
+}
+
+@media only screen and (max-width: 600px) {
+    
+    .conclusiongrid{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 0.3fr 0.3fr;
+    }
+
+    .lessons {
+        grid-column: 1;
+        grid-row: 1;
+    }
+    
+    .softskills {
+        grid-column: 1;
+        grid-row: 2;
+        margin-bottom: -15px;
+    }
+    
+    .hardskills {
+        grid-column: 1;
+        grid-row: 3;
+    }
+
+    .title {
+        font-size: 2.5em;
+    }
+
+    .introdiv {
+        width: 90%;
+    }
+}

@@ -1,0 +1,109 @@
+.intpara {
+    text-align: center;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 12px;
+}
+
+.questionsList {
+    font-family: 'Noto Sans';
+}
+
+ul.intpara{
+    margin-left: -20px;
+}
+
+.keysketch {
+    width: 70%;
+    height: auto;
+}
+
+.caption {
+    width: 42%;
+    margin-bottom: 40px;
+}
+
+.interviewdiv {
+    background-color: white;
+    width: 80%;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.interviews {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.grid {
+    display: flex;
+    width: 80%;
+    padding-bottom: 40px;
+    row-gap: 15px;
+    column-gap: 15px;
+}
+
+.interview {
+    background-color: white;
+    padding: 15px;
+    border-radius: 5px;
+    width: 30%;
+}
+
+.personascap {
+    width: 70%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.personas {
+    width: 80%;
+    height: auto;
+    border-radius: 5px;
+    background-color: white;
+    margin: 10px;
+    margin-bottom: 30px;
+}
+
+.storyboard {
+    width: 80%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    .grid {      
+        flex-direction: column;
+        width: 90%;
+    }
+    
+    .interview, .interviewdiv {
+        width: 90%;
+    }
+
+    .questionsList {
+        padding: 0px 35px 0px 35px;
+    }
+
+    .keysketch {
+        width: 90%;
+        max-height: 200px;
+    }
+
+    .personas {
+        max-height: 300px;
+        width: 90%;
+    }
+
+    .storyboard {
+        max-height: 200px;
+        width: 90%;
+    }
+
+    .caption {
+        width: 70%;
+    }
+}
+

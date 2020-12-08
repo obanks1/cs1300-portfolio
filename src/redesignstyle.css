@@ -87,4 +87,7 @@
     .accessList {
         padding-left: 20px;
     }
+    .styleguide {
+        max-height: 200px;
+    }
 }

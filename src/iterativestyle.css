@@ -78,7 +78,7 @@ img {
 
     .bulletTextDiv {
         flex-direction: column;
-        width: 90%;
+        width: 80%;
     }
 
     .bulletCaption {
@@ -94,6 +94,6 @@ img {
     }
 
     .draprIntro, .draprCentered, .designChoices, .userTestingDiv, .summaryListDiv {
-        width: 90%;
+        width: 80%;
     }
 }

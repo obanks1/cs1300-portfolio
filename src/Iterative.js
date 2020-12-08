@@ -185,12 +185,6 @@ class Iterative extends Component {
                     <div className="videodiv whitebox smallshadow">
                         <iframe width="100%" height="400" src="https://www.youtube.com/embed/SGRmRmEfjoI" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen title="first user test"></iframe>
                     </div>
-                    <div className="videodiv whitebox smallshadow">
-                        <iframe width="100%" height="400" src="https://www.youtube.com/embed/p41RUpOxvSI" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen title="second user test"></iframe>
-                    </div>
-                    <div className="videodiv whitebox smallshadow">
-                        <iframe width="100%" height="400" src="https://www.youtube.com/embed/XQaWgeZMYWM" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen title="third user test"></iframe>
-                    </div>
                     </div></div>
                     <br/>
 
@@ -224,31 +218,7 @@ class Iterative extends Component {
                         </li>
                     </ul>
                     </div></div>
-                    
-
-                    <br/>
-                    <h3 className="subtitle">Interface Changes</h3>
-                    <div className="centered"><div className="summaryListDiv">
-                    <ul className="draprList">
-                        <li>Our biggest change would be to make the affordances even more clear for scrolling. 
-                        Not understanding the scroll made the website nearly completely unusable, so perhaps a 
-                        scrolling bar on the right of the page or something similar would ensure this mistake is 
-                        not made.
-                        </li>
-                        <li>We would add a bit more detail and information on the landing pages for the “checkout” 
-                        and “contact us” buttons. This would reassure customers that they performed the correct tasks.
-                        </li>
-                        <li>
-                        We might change the color scheme slightly on the icons for the three different plans. As is, 
-                        it may be a bit difficult for customers to intuitively and immediately grasp the idea that 
-                        the plans are radically different given the similarity in color schemes.
-                        </li>
-                        <li>
-                        Users generally relied on recall rather than intuition for navigating to specific elements on the scrollable home page. In the future we would add a clickable navigation bar on the top of the page that takes users directly to different sections of the page.
-                        </li>
-                    </ul>
-                    </div></div>
-                    <br/>
+                    <br></br>
 
                     <div className="centered"><div className="conclusion smallshadow">
                     <h3 className="subtitle">Conclusion</h3>

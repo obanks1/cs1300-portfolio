@@ -4,7 +4,7 @@ class About extends Component {
     render () {
         return (
             <div className="centered"><div className="aboutDiv">
-                <img className="portrait" src="tree.jpg" alt="placeholder for self"></img>
+                <img className="portrait" src="tree.JPG" alt="placeholder for self"></img>
                 <div className="about">
                     <h3>Nice to meet you!</h3>
                     <p className="aboutP">I'm Olivia, a 4th year student</p>

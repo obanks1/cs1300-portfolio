@@ -84,9 +84,8 @@ class ABTest extends Component {
                 design should make all necessary information as accessible as possible.
                 </li>
                 <li>It's important to choose the right metrics for evaluating the two versions against
-                each other. Would time to completion or return rate actually correllate with increased 
-                revenue on the site? It would be interesting to test click-through rate or 
-                money spent as additional metrics.
+                each other. Time to completion or return rate might not correllate with increased 
+                revenue on the site. Click-through rate or money spent would be more effective metrics.
                 </li>
             </ul>
             </div></div>

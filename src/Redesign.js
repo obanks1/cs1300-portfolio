@@ -58,8 +58,8 @@ class Redesign extends Component {
                     <div className="lofi smallshadow"><img src="redesignphotos/lofi desktop.png" className="lofiimg desktoplofi" alt="lofi desktop prototype"/></div>
                     <div className="lofi smallshadow"><img src="redesignphotos/lofi tablet 2.gif" className="lofiimg tabletlofi" alt="lofi tablet prototype"/>
                         <img src="redesignphotos/lofi annotation.png" className="lofiannotation" alt="annotation explaining prototypes"/></div>
-                    <div className="lofi smallshadow"><img src="redesignphotos/lofi phone 2.gif" className="lofiimg phonelofi" alt="lofi phone prototype"/>
-                        <img src="redesignphotos/lofi annotation.png" className="lofiannotation" alt="annotation explaining prototypes"/></div>
+                    {/*<div className="lofi smallshadow"><img src="redesignphotos/lofi phone 2.gif" className="lofiimg phonelofi" alt="lofi phone prototype"/>
+                        <img src="redesignphotos/lofi annotation.png" className="lofiannotation" alt="annotation explaining prototypes"/></div>*/}
                     </div></div>
 
                     <h3 className="subtitle">Hifi Prototypes</h3>
@@ -73,9 +73,9 @@ class Redesign extends Component {
                     <div className="hifi smallshadow"><img src="redesignphotos/hifi tablet 2.gif" className="hifiimg tablethifi" alt="hifi tablet prototype"/>
                         <img src="redesignphotos/hifi annotation.png" className="lofiannotation" alt="annotation explaining prototypes"/>
                     </div>
-                    <div className="hifi smallshadow"><img src="redesignphotos/hifi phone 2.gif" className="hifiimg phonehifi" alt="hifi phone prototype"/>
+                    {/*<div className="hifi smallshadow"><img src="redesignphotos/hifi phone 2.gif" className="hifiimg phonehifi" alt="hifi phone prototype"/>
                         <img src="redesignphotos/hifi annotation.png" className="lofiannotation" alt="annotation explaining prototypes"/>
-                    </div>
+                    </div>*/}
                     </div></div>
 
                     <h3 className="subtitle">Style Guide</h3>

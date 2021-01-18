@@ -16,6 +16,7 @@ import ABTest from './ABTest';
 import Redesign from './Redesign';
 import Personas from './Personas';
 import About from './About';
+import Resume from './Resume';
 
 class App extends Component {
   constructor() {
@@ -23,9 +24,9 @@ class App extends Component {
     this.state = {
         posts: [
           {title: 'DEVELOPMENT', key: 0, date: '2020-12-1', subject: 'UI/UX', format: 'website', photo: 'dev.png', desc: 'an online store made with React and Material UI', link: 'development'},
-          {title: 'ITERATIVE DESIGN', key: 1, date: '2020-11-10', subject: 'UI/UX', format: 'interactive prototype', photo: 'iterative.png', desc: 'interface design process for an emerging startup', link: 'iterative'},
+          {title: 'ITERATIVE DESIGN', key: 3, date: '2020-11-10', subject: 'UI/UX', format: 'interactive prototype', photo: 'iterative.png', desc: 'interface design process for an emerging startup', link: 'iterative'},
           {title: 'A/B TESTING', key: 2, date: '2020-10-27', subject: 'UI/UX', format: 'case study', photo: 'ab.png', desc: 'compare two UI designs using statistical analysis', link: 'abtest'},
-          {title: 'RESPONSIVE REDESIGN', key: 3, date: '2020-10-20', subject: 'UI/UX', format: 'website', photo: 'redesign.png', desc: 'a responsive website redesigned for a local company', link: 'redesign'},
+          {title: 'RESPONSIVE REDESIGN', key: 1, date: '2020-10-20', subject: 'UI/UX', format: 'website', photo: 'redesign.png', desc: 'a responsive website redesigned for a local company', link: 'redesign'},
           {title: 'PERSONAS & STORYBOARDING', key: 4, date: '2020-10-6', subject: 'UI/UX', format: 'case study', photo: 'persona.png', desc: 'personas and storyboard for users of a keyboard interface', link: 'personas'},
         ],
         total: 0,
@@ -65,7 +66,7 @@ class App extends Component {
   render () { return (
     <Router><Route render={({ location }) => (<div className="app">
       <header>
-        <div className="headerDiv"><Link to='/' onClick={this.goBolt}><div className="headerText"><h1 className="headerTitle">My Name</h1></div><img src="/stillbolt.png" className="bolt" alt="lightning bolt graphic" id="imgAnimate"></img></Link></div>
+        <div className="headerDiv"><Link to='/' onClick={this.goBolt}><div className="headerText"><h1 className="headerTitle">Olivia Banks</h1></div><img src="/stillbolt.png" className="bolt" alt="lightning bolt graphic" id="imgAnimate"></img></Link></div>
         <nav>
           <Link to='/' className="navLink" onClick={this.goBolt}>Projects</Link>
           <Link to='/about' className="navLink" onClick={this.goBolt}>About</Link>
@@ -80,12 +81,12 @@ class App extends Component {
         <Route path="/redesign"><Redesign/></Route>
         <Route path="/personas"><Personas/></Route>
         <Route path ="/about"><About/></Route>
-        <Route path="/resume"><p className="centered">removed for anonymity</p></Route>
+        <Route path="/resume"><Resume/></Route>
         <Route path="/">
           <div className="portfolio">
             <div className="sideBar">
               <p className="aboutBlurb">hi! I'm an engineer and designer based in baltimore</p>
-              <p className="aboutBlurb"><em>currently:</em> computer engineering concentrator <b>@brown university</b></p>
+              <p className="aboutBlurb about2"><em>currently:</em> computer engineering concentrator <b>@brown university</b></p>
               <FilterMenu sort={this.state.sort} subject={this.state.subject} format={this.state.format} handleSort={this.handleSort} handleFilterSubject={this.handleFilterSubject} handleFilterFormat={this.handleFilterFormat}/>
             </div>
             <div className="postList">

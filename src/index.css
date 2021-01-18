@@ -37,7 +37,7 @@ code {
   justify-content: center;
   align-items: center;
   width: 75%;
-  margin-top: -20px;
+  margin-top: -30px;
 }
 
 h1 { /** Main Title **/
@@ -88,7 +88,7 @@ nav {
 
 .bolt {
   width: 100px;
-  padding: 29px 0px 0px 40px;
+  padding: 45px 0px 0px 40px;
 }
 
 .headerText {
@@ -113,6 +113,7 @@ nav {
   align-items: center;
   flex-direction: column;
   margin-left: 30px;
+  position: relative;
 }
 
 .menu {
@@ -123,16 +124,25 @@ nav {
   flex-direction: column;
   margin-top: 10px;
   row-gap: 20px;
+  padding-top: 10px;
 }
 
 .dropdown {
-  width: 150px;
+  width: 190px;
   padding-bottom: 20px;
 }
 
 .aboutBlurb {
-  width: 60%;
+  width: 80%;
   margin: 0px 0px 10px 0px;
+}
+
+.about2 {
+  padding-top: 10px;
+}
+
+.brush {
+  margin-top: -20px;
 }
 
 /** About Page**/
@@ -150,9 +160,15 @@ nav {
   margin: 5px 0px 5px 0px;
 }
 
+.about {
+  margin-left: 20px;
+}
+
 .portrait {
   width: 300px;
   margin: 15px 15px 0px 0px;
+  border-radius: 5px;
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034);
 }
 
 /** Individual Posts **/
@@ -249,6 +265,22 @@ nav {
   transition: opacity 300ms;
 }
 
+/** Resume **/
+
+.resume {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.resumePage {
+  border-radius: 5px;
+  box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072);
+}
+
 /** Screen size **/ 
 
 @media only screen and (max-width: 1245px) { 
@@ -337,6 +369,16 @@ nav {
   .aboutDiv {
     flex-direction: column;
   }
+  .about {
+    margin-left: 0px;
+  }
+  .portrait {
+    width: 380px;
+  }
+  .resume {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
 }
 
 @media only screen and (max-width: 400px) {
@@ -345,6 +387,9 @@ nav {
   }
   .navLink {
     padding-left: 10px;
+  }
+  .portrait {
+    width: 300px;
   }
 }
 

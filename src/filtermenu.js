@@ -9,7 +9,8 @@ class FilterMenu extends Component {
 
     render() { return (
         <div className="menu">
-            {/* sort dropdown */}
+            
+            {/*sort dropdown
             <FormControl className="dropdown">
                 <InputLabel>sort by: </InputLabel>
                 <Select id="sorter" onChange={this.props.handleSort} value={this.props.sort}>
@@ -19,7 +20,7 @@ class FilterMenu extends Component {
                 </Select>
             </FormControl>
 
-            {/* filter by subject dropdown */}
+            filter by subject dropdown
             <FormControl className="dropdown">
                 <InputLabel>filter subject: </InputLabel>
                 <Select id="filterer1" onChange={this.props.handleFilterSubject} value={this.props.subject}>
@@ -27,6 +28,7 @@ class FilterMenu extends Component {
                     <MenuItem value="UI/UX">UI/UX</MenuItem>
                 </Select>
             </FormControl>
+            */}
 
             {/* filter by format dropdown */}
             <FormControl className="dropdown">

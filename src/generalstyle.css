@@ -1,3 +1,5 @@
+/* Page Title */
+
 .title {
     text-align: center;
     font-size: 4em;
@@ -5,6 +7,8 @@
     margin: 0px;
     padding: 0px;
 }
+
+/* Section Title */
 
 .subtitle {
     text-align: center;
@@ -26,14 +30,9 @@ h6 {
     margin: 10px;
 }
 
-.introdiv {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    width: 70%;
-}
+/* Intro Styling*/
 
-.introcap {
+.introCap {
     background-color: white;
     margin: 20px 0px 20px 0px;
     padding: 15px 15px 5px 15px;
@@ -49,7 +48,7 @@ h6 {
     color: #444;
 }
 
-.inlinehr {
+.inlineHR {
     display: inline-block; 
     width: 33%; 
     position: relative; 
@@ -60,23 +59,9 @@ h6 {
     background-color: darkgrey;
 }
 
-.longhr {
-    width: 80%;
-    border: 0;
-    height: 3px;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
-}
+/* Conclusion Styling*/
 
-
-.conclusion {
-    background-color: white;
-    border-radius: 5px;
-    padding: 20px;
-    margin-bottom: 80px;
-    width: 80%;
-}
-
-.conclusiongrid {
+.conclusionGrid {
     display: grid;
     grid-gap: 10px;
     grid-template-columns: 1fr 0.3fr 0.3fr;
@@ -89,27 +74,35 @@ h6 {
     grid-row: 1;
 }
 
-.softskills {
+.softSkills {
     grid-column: 2;
     grid-row: 1;
 }
 
-.hardskills {
+.hardSkills {
     grid-column: 3;
     grid-row: 1;
 }
 
-.skillslist {
+.skillsList {
     margin-left: -25px;
     font-weight: lighter;
 }
 
+/* General Page Styling */
+
 .centered {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.centeredRow, .centeredRowPermanent {
     display: flex;
     justify-content: center;
 }
 
-.coolshadow {
+.longShadow {
     box-shadow:
     0 2.8px 2.2px rgba(0, 0, 0, 0.034),
     0 6.7px 5.3px rgba(0, 0, 0, 0.048),
@@ -117,14 +110,99 @@ h6 {
     0 22.3px 17.9px rgba(0, 0, 0, 0.072);
 }
 
-.smallshadow {
+.smallShadow {
     box-shadow:
     0 2.8px 2.2px rgba(0, 0, 0, 0.034);
 }
 
+img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+.whiteDiv {
+    background-color: white;
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.longHR {
+    width: 80%;
+    border: 0;
+    height: 3px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+/* General Page Styling - Text */
+
+.largePara {
+    text-align: center;
+    width: 70%;
+}
+
+.smallPara {
+    text-align: center;
+    width: 40%;
+}
+
+.smallText {
+    font-size: 12px;
+}
+
+.centeredText {
+    text-align: center;
+}
+
+.noto {
+    font-family: 'Noto Sans';
+}
+
+.kalam {
+    font-family: 'kalam';
+}
+
+/* Sizing shortcuts */
+
+.thirty {
+    width: 30%;
+}
+
+.forty {
+    width: 40%;
+}
+
+.fifty {
+    width: 50%;
+}
+
+.sixty {
+    width: 60%;
+}
+
+.seventy {
+    width: 70%;
+}
+
+.eighty {
+    width: 80%;
+}
+
+/* Video-Specific */
+
+.smallVideoDiv {
+    width: 24%;
+}
+
+.largeVideoDiv {
+    width: 76%;
+}
+
+
+/* styling adjusts to smaller page sizes*/
 @media only screen and (max-width: 600px) {
     
-    .conclusiongrid{
+    .conclusionGrid{
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 0.3fr 0.3fr;
     }
@@ -134,13 +212,13 @@ h6 {
         grid-row: 1;
     }
     
-    .softskills {
+    .softSkills {
         grid-column: 1;
         grid-row: 2;
         margin-bottom: -15px;
     }
     
-    .hardskills {
+    .hardSkills {
         grid-column: 1;
         grid-row: 3;
     }
@@ -149,7 +227,36 @@ h6 {
         font-size: 2.5em;
     }
 
-    .introdiv {
-        width: 90%;
+    .smallPara {
+        width: 70%;
+    }
+
+    .thirty, .smallVideoDiv, .largeVideoDiv {
+        width: 100%;
+    }
+
+    .forty, .fifty, .sixty, .seventy {
+        width: 80%;
+    }
+
+    .whiteDiv {
+        padding: 10px;
+    }
+
+    .skillsList {
+        margin-left: 10px;
+    }
+
+    ul {
+        padding-left: 20px;
+    }
+
+    h4 {
+        margin: 10px 0px 10px 0px;
+    }
+
+    .centeredRow {
+        align-items: center;
+        flex-direction: column;
     }
 }

@@ -4,7 +4,7 @@ import {
   } from "react-router-dom";
 
 class Post extends Component {
-    /* defines how posts look in the shopping area */
+    /* defines how posts look in home page */
     createPost = post => {
         return (
             <div className="post" key={post.key}>

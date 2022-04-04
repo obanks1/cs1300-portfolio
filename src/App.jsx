@@ -2,7 +2,7 @@ import './App.css';
 import {Component} from 'react';
 import Post from './post';
 import FilterMenu from './filtermenu';
-import $ from'jquery';
+import $ from 'jquery';
 import {
   BrowserRouter as Router,
   Switch,
@@ -10,6 +10,8 @@ import {
   Link,
 } from "react-router-dom";
 import {TransitionGroup, CSSTransition} from 'react-transition-group';
+import Shelter from './Shelter';
+import Wander from './Wander';
 import Development from './Development';
 import Iterative from './Iterative';
 import ABTest from './ABTest';
@@ -19,15 +21,17 @@ import About from './About';
 import Resume from './Resume';
 
 class App extends Component {
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
     this.state = {
         posts: [
-          {title: 'DEVELOPMENT', key: 0, date: '2020-12-1', subject: 'UI/UX', format: 'website', photo: 'dev.png', desc: 'an online store made with React and Material UI', link: 'development'},
-          {title: 'ITERATIVE DESIGN', key: 3, date: '2020-11-10', subject: 'UI/UX', format: 'interactive prototype', photo: 'iterative.png', desc: 'interface design process for an emerging startup', link: 'iterative'},
-          {title: 'A/B TESTING', key: 2, date: '2020-10-27', subject: 'UI/UX', format: 'case study', photo: 'ab.png', desc: 'compare two UI designs using statistical analysis', link: 'abtest'},
-          {title: 'RESPONSIVE REDESIGN', key: 1, date: '2020-10-20', subject: 'UI/UX', format: 'website', photo: 'redesign.png', desc: 'a responsive website redesigned for a local company', link: 'redesign'},
-          {title: 'PERSONAS & STORYBOARDING', key: 4, date: '2020-10-6', subject: 'UI/UX', format: 'case study', photo: 'persona.png', desc: 'personas and storyboard for users of a keyboard interface', link: 'personas'},
+          {title: 'SHELTER SUITCASE', key: 0, date: '2021-4-19', subject: 'engineering', format: 'interactive prototype', photo: 'shelter.png', desc: 'design and prototype a portable shelter to provide a temporary solution to homelessness', link: 'shelter'},
+          {title: 'WANDER', key: 1, date: '2021-5-1', subject: 'UI/UX', format: 'website', photo: 'wanderhome.png', desc: 'a travel-planning web app for exploring new destinations, creating itineraries, and organizing and sharing trips with friends and family', link: 'wander'},
+          {title: 'STOREFRONT', key: 2, date: '2020-12-1', subject: 'UI/UX', format: 'website', photo: 'dev.png', desc: 'an online store made with React and Material UI', link: 'storefront'},
+          {title: 'ITERATIVE DESIGN', key: 5, date: '2020-11-10', subject: 'UI/UX', format: 'interactive prototype', photo: 'iterative.png', desc: 'interface design process for an emerging startup', link: 'iterative'},
+          {title: 'A/B TESTING', key: 4, date: '2020-10-27', subject: 'UI/UX', format: 'case study', photo: 'ab.png', desc: 'compare two UI designs using statistical analysis', link: 'abtest'},
+          {title: 'RESPONSIVE REDESIGN', key: 3, date: '2020-10-20', subject: 'UI/UX', format: 'website', photo: 'redesign.png', desc: 'a responsive website redesigned for a local company', link: 'redesign'},
+          {title: 'PERSONAS & STORYBOARDING', key: 6, date: '2020-10-6', subject: 'UI/UX', format: 'case study', photo: 'persona.png', desc: 'personas and storyboard for users of a keyboard interface', link: 'personas'},
         ],
         total: 0,
         sort: "featured",
@@ -73,9 +77,11 @@ class App extends Component {
           <Link to='/resume' className="navLink" onClick={this.goBolt}>Resume</Link>
         </nav>
       </header>
-      <br></br>
+      <br/>
       <TransitionGroup><CSSTransition key={location.key} timeout={350} classNames="transition" unmountOnExit><Switch location={location}>
-        <Route path="/development"><Development/></Route>
+        <Route path="/shelter"><Shelter/></Route>
+        <Route path="/wander"><Wander/></Route>
+        <Route path="/storefront"><Development/></Route>
         <Route path="/iterative"><Iterative/></Route>
         <Route path="/abtest"><ABTest/></Route>
         <Route path="/redesign"><Redesign/></Route>

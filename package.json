@@ -2,7 +2,7 @@
   "name": "development",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://obanks1.github.io/cs1300-portfolio.git",
+  "homepage": "https://olivia-banks.info",
   "dependencies": {
     "@material-ui/core": "^4.11.0",
     "@material-ui/icons": "^4.9.1",

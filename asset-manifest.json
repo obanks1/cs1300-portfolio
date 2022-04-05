@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/cs1300-portfolio.git/static/css/main.ad24ea3a.chunk.css",
+    "main.js": "/cs1300-portfolio.git/static/js/main.12de53e1.chunk.js",
+    "main.js.map": "/cs1300-portfolio.git/static/js/main.12de53e1.chunk.js.map",
+    "runtime-main.js": "/cs1300-portfolio.git/static/js/runtime-main.1db66510.js",
+    "runtime-main.js.map": "/cs1300-portfolio.git/static/js/runtime-main.1db66510.js.map",
+    "static/js/2.71bf0470.chunk.js": "/cs1300-portfolio.git/static/js/2.71bf0470.chunk.js",
+    "static/js/2.71bf0470.chunk.js.map": "/cs1300-portfolio.git/static/js/2.71bf0470.chunk.js.map",
+    "static/js/3.40d758d9.chunk.js": "/cs1300-portfolio.git/static/js/3.40d758d9.chunk.js",
+    "static/js/3.40d758d9.chunk.js.map": "/cs1300-portfolio.git/static/js/3.40d758d9.chunk.js.map",
+    "index.html": "/cs1300-portfolio.git/index.html",
+    "static/css/main.ad24ea3a.chunk.css.map": "/cs1300-portfolio.git/static/css/main.ad24ea3a.chunk.css.map",
+    "static/js/2.71bf0470.chunk.js.LICENSE.txt": "/cs1300-portfolio.git/static/js/2.71bf0470.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/cs1300-portfolio.git/static/media/permanent-marker-v10-latin-regular.e3151668.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1db66510.js",
+    "static/js/2.71bf0470.chunk.js",
+    "static/css/main.ad24ea3a.chunk.css",
+    "static/js/main.12de53e1.chunk.js"
+  ]
+}

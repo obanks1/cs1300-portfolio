@@ -38,7 +38,7 @@ class Wander extends Component {
                             <li>User accounts to keep track of saved trips</li>
                         </ul>
                     </div>
-                    <p className='smallPara'>We also discussed security and privacy concerns. To minimize the possibility of leaked emails and passwords, we decided to use google logins, and to keep itineraries private unless the user shares them with a link.</p>
+                    <p className='smallPara'>We also discussed security and privacy concerns. To minimize the possibility of leaked emails and passwords, we decided to use Google logins, and to keep itineraries private unless the user shares them with a link.</p>
                     <br/>
                     <h3 className='subtitle'>Initial Sketches</h3>
                     <br/>
@@ -50,7 +50,7 @@ class Wander extends Component {
                     <br/>
                     <br/>
                     <h3 className="subtitle">Wireframes</h3>
-                    <p className='largePara'>After establishing the client’s needs, I used Figma to create a wireframe for every page of the website. The intent was to help establish the scope and features of each page and the relationships between pages before coding began. It also helped me identify what graphical elements needed to be created and test out different designs.</p>
+                    <p className='largePara'>After establishing the client’s needs, I used Figma to create a wireframe for every page of the website. The intent was to help establish the scope and features of each page and the relationships between pages before coding began. It also helped me identify what graphical elements needed to be created and to test out different designs.</p>
                     <br/>
                     <div className='whiteDiv seventy smallShadow'>
                         <div className='centeredRow' style={{gap: '5px'}}>
@@ -99,7 +99,7 @@ class Wander extends Component {
                     <p className='largePara'>Some opportunities for further work on this app include:</p>
                     <div className='centered eighty'>
                         <ul>
-                            <li>Ability to browse popular locations using geohashing of pins, see other users’ pictures if they’re posted publicly</li>
+                            <li>Ability to browse popular locations using geohashing of pins, and see other users’ pictures if they’re posted publicly</li>
                             <li>Concurrent editing of a trip by multiple users</li>
                             <li>Custom pictures for pins</li>
                             <li>Commercial integration with prices for tickets/hotels</li>

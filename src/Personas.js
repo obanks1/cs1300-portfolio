@@ -69,8 +69,8 @@ class Personas extends Component {
                                 noting that the word "voice" isn't typically used in music and that "style" should be 
                                 called rhythm. She felt that the "autoplay song" feature was outdated given modern phone 
                                 technology and that the song arrangement feature could be more easily done on a computer. 
-                                She expressed disappointment that keyboard didn't have a midi feature. Overall, she found
-                                the interface layout crowded but liked the variety of features, expressing that the 
+                                She expressed disappointment that the keyboard didn't have a midi feature. Overall, she found
+                                the interface layout crowded but liked the variety of features, noting that the 
                                 different voices could be useful when composing music. </p>
                             <h4>Observations</h4>
                             <ul className="smallText noto">

@@ -1,10 +1,13 @@
 import {Component} from 'react';
-import './generalstyle.css';
+import '../writeupstyle.css';
 import Fade from 'react-reveal/Fade';
-import Intro from './Intro';
-import Conclusion from './Conclusion';
+import Intro from './Writeup-Components/Intro';
+import Conclusion from './Writeup-Components/Conclusion';
 
 class ABTest extends Component {
+    componentDidMount () {
+        window.scrollTo(0, 0);
+    }
     render () {
         return (
         <div className="ABtestdiv">

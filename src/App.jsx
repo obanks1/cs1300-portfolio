@@ -10,13 +10,13 @@ import {
   Link,
 } from "react-router-dom";
 import {TransitionGroup, CSSTransition} from 'react-transition-group';
-import Shelter from './Shelter';
-import Wander from './Wander';
-import Development from './Development';
-import Iterative from './Iterative';
-import ABTest from './ABTest';
-import Redesign from './Redesign';
-import Personas from './Personas';
+import Shelter from './Writeups/Shelter';
+import Wander from './Writeups/Wander';
+import Development from './Writeups/Development';
+import Iterative from './Writeups/Iterative';
+import ABTest from './Writeups/ABTest';
+import Redesign from './Writeups/Redesign';
+import Personas from './Writeups/Personas';
 import About from './About';
 import Resume from './Resume';
 
@@ -74,7 +74,6 @@ class App extends Component {
         <nav>
           <Link to='/' className="navLink" onClick={this.goBolt}>Projects</Link>
           <Link to='/about' className="navLink" onClick={this.goBolt}>About</Link>
-          <Link to='/resume' className="navLink" onClick={this.goBolt}>Resume</Link>
         </nav>
       </header>
       <br/>

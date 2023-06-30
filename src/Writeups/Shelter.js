@@ -1,10 +1,15 @@
 import {Component} from 'react';
+import '../writeupstyle.css';
 import Fade from 'react-reveal/Fade';
-import Intro from './Intro';
-import Conclusion from './Conclusion';
+
+import Intro from './Writeup-Components/Intro';
+import Conclusion from './Writeup-Components/Conclusion';
 
 
 class Shelter extends Component {
+    componentDidMount () {
+        window.scrollTo(0, 0);
+    }
     render () {
         return (
             <div className="developmentdiv">
@@ -30,7 +35,7 @@ class Shelter extends Component {
                     <h3 className='subtitle'>Design Inspirations</h3>
                     <br/>
                     <div className='whiteDiv smallShadow centeredRow fifty'>
-                        <img src='shelterphotos/designinspo1.png' alt='shelter in a cart Yunquin Lee'></img>
+                        <img src='shelterphotos\designinspo1.png' alt='shelter in a cart Yunquin Lee'></img>
                         <img src='shelterphotos/designinspo2.png' alt='Urban Caterpillar Abby Brazier'></img>
                     </div>
                     <p className='smallPara smallText'>An existing design for a “shelter in a cart” by designer Yunqin Lee provided inspiration for our lockbox shelter. Lee’s design incorporates an expandable canvas tent that can serve as shelter or storage space, and collapses into a compact rolling cart. Lee’s Cocoon shelter was never actually built or tested, so we adapted and expanded upon some of its characteristics.</p>

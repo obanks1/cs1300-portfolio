@@ -1,11 +1,15 @@
 import {Component} from 'react';
+import '../writeupstyle.css';
 import Fade from 'react-reveal/Fade';
 
-import Intro from './Intro';
-import Conclusion from './Conclusion';
+import Intro from './Writeup-Components/Intro';
+import Conclusion from './Writeup-Components/Conclusion';
 
 
 class Development extends Component {
+    componentDidMount () {
+        window.scrollTo(0, 0);
+    }
     render () {
         return (
             <div className="developmentdiv">

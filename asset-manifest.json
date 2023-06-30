@@ -1,23 +1,35 @@
 {
   "files": {
-    "main.css": "/static/css/main.b79f85e9.chunk.css",
-    "main.js": "/static/js/main.12de53e1.chunk.js",
-    "main.js.map": "/static/js/main.12de53e1.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.b0293133.js",
-    "runtime-main.js.map": "/static/js/runtime-main.b0293133.js.map",
-    "static/js/2.71bf0470.chunk.js": "/static/js/2.71bf0470.chunk.js",
-    "static/js/2.71bf0470.chunk.js.map": "/static/js/2.71bf0470.chunk.js.map",
-    "static/js/3.40d758d9.chunk.js": "/static/js/3.40d758d9.chunk.js",
-    "static/js/3.40d758d9.chunk.js.map": "/static/js/3.40d758d9.chunk.js.map",
+    "main.css": "/static/css/main.13f3c6bb.css",
+    "main.js": "/static/js/main.9a0a7cc7.js",
+    "static/js/377.a072f678.chunk.js": "/static/js/377.a072f678.chunk.js",
+    "static/media/permanent-marker-v10-latin-regular.svg": "/static/media/permanent-marker-v10-latin-regular.2ac178682f1c87e25a0b.svg",
+    "static/media/courgette-v8-latin-regular.svg": "/static/media/courgette-v8-latin-regular.11f48a7bda315f0d4c1d.svg",
+    "static/media/kalam-v11-latin-regular.svg": "/static/media/kalam-v11-latin-regular.a74ea09ec707af19bd35.svg",
+    "static/media/permanent-marker-v10-latin-regular.ttf": "/static/media/permanent-marker-v10-latin-regular.e31516680e8b7a5490e6.ttf",
+    "static/media/courgette-v8-latin-regular.ttf": "/static/media/courgette-v8-latin-regular.2b361ffe4f240c89a216.ttf",
+    "static/media/noto-sans-v11-latin-regular.svg": "/static/media/noto-sans-v11-latin-regular.ab6e42380f2a05e00234.svg",
+    "static/media/kalam-v11-latin-regular.ttf": "/static/media/kalam-v11-latin-regular.28ff4a7f627daca3986e.ttf",
+    "static/media/permanent-marker-v10-latin-regular.woff": "/static/media/permanent-marker-v10-latin-regular.455d3f63c77f07a3760a.woff",
+    "static/media/permanent-marker-v10-latin-regular.eot": "/static/media/permanent-marker-v10-latin-regular.5c999d3f9e1548c4c89f.eot",
+    "static/media/courgette-v8-latin-regular.woff": "/static/media/courgette-v8-latin-regular.3c82fe8d05041c10a339.woff",
+    "static/media/noto-sans-v11-latin-regular.ttf": "/static/media/noto-sans-v11-latin-regular.911a4479e3e8b9d11ba4.ttf",
+    "static/media/permanent-marker-v10-latin-regular.woff2": "/static/media/permanent-marker-v10-latin-regular.bd982c23c848c3486469.woff2",
+    "static/media/courgette-v8-latin-regular.eot": "/static/media/courgette-v8-latin-regular.c4d507f2020cbc227c2c.eot",
+    "static/media/kalam-v11-latin-regular.woff": "/static/media/kalam-v11-latin-regular.851a95f76ff2620f5b74.woff",
+    "static/media/kalam-v11-latin-regular.eot": "/static/media/kalam-v11-latin-regular.76f2ecdbd54c050c89b4.eot",
+    "static/media/courgette-v8-latin-regular.woff2": "/static/media/courgette-v8-latin-regular.64a5a4af9de4cd674053.woff2",
+    "static/media/kalam-v11-latin-regular.woff2": "/static/media/kalam-v11-latin-regular.29c64fef98f6298f4fca.woff2",
+    "static/media/noto-sans-v11-latin-regular.woff": "/static/media/noto-sans-v11-latin-regular.bedd9dda935a164e00f0.woff",
+    "static/media/noto-sans-v11-latin-regular.eot": "/static/media/noto-sans-v11-latin-regular.d94baf4d793438f78dcf.eot",
+    "static/media/noto-sans-v11-latin-regular.woff2": "/static/media/noto-sans-v11-latin-regular.7f65400c6b61f9dd1187.woff2",
     "index.html": "/index.html",
-    "static/css/main.b79f85e9.chunk.css.map": "/static/css/main.b79f85e9.chunk.css.map",
-    "static/js/2.71bf0470.chunk.js.LICENSE.txt": "/static/js/2.71bf0470.chunk.js.LICENSE.txt",
-    "static/media/index.css": "/static/media/permanent-marker-v10-latin-regular.e3151668.ttf"
+    "main.13f3c6bb.css.map": "/static/css/main.13f3c6bb.css.map",
+    "main.9a0a7cc7.js.map": "/static/js/main.9a0a7cc7.js.map",
+    "377.a072f678.chunk.js.map": "/static/js/377.a072f678.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.b0293133.js",
-    "static/js/2.71bf0470.chunk.js",
-    "static/css/main.b79f85e9.chunk.css",
-    "static/js/main.12de53e1.chunk.js"
+    "static/css/main.13f3c6bb.css",
+    "static/js/main.9a0a7cc7.js"
   ]
 }

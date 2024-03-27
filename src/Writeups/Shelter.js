@@ -16,7 +16,7 @@ class Shelter extends Component {
                 <Fade>
                 <div className="centered">
                     {/* Intro */}
-                    <Intro title={'Shelter Suitcase'} 
+                    <Intro title={'Shelter in a Suitcase'} 
                     subtitle={'a temporary solution to homelessness'} 
                     objective={'Work with a small team to design and prototype a temporary solution to homelessness based on feedback from housing advocates and individuals who have experienced homelessness.'} 
                     subject={'A portable shelter that provides safe and private housing by night, and can be carried or locked up by day, providing secure storage and increased mobility.'} 

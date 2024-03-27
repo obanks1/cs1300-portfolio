@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.13f3c6bb.css",
-    "main.js": "/static/js/main.9a0a7cc7.js",
+    "main.js": "/static/js/main.70af72b6.js",
     "static/js/377.a072f678.chunk.js": "/static/js/377.a072f678.chunk.js",
     "static/media/permanent-marker-v10-latin-regular.svg": "/static/media/permanent-marker-v10-latin-regular.2ac178682f1c87e25a0b.svg",
     "static/media/courgette-v8-latin-regular.svg": "/static/media/courgette-v8-latin-regular.11f48a7bda315f0d4c1d.svg",
@@ -25,11 +25,11 @@
     "static/media/noto-sans-v11-latin-regular.woff2": "/static/media/noto-sans-v11-latin-regular.7f65400c6b61f9dd1187.woff2",
     "index.html": "/index.html",
     "main.13f3c6bb.css.map": "/static/css/main.13f3c6bb.css.map",
-    "main.9a0a7cc7.js.map": "/static/js/main.9a0a7cc7.js.map",
+    "main.70af72b6.js.map": "/static/js/main.70af72b6.js.map",
     "377.a072f678.chunk.js.map": "/static/js/377.a072f678.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.13f3c6bb.css",
-    "static/js/main.9a0a7cc7.js"
+    "static/js/main.70af72b6.js"
   ]
 }
